@@ -1,91 +1,44 @@
-# PhotoArchive---Azure-Version
-PhotoArchive project proposed by the Los Angeles Bureau of Engineering. The project will help the bureau by providing an efficient interface to upload images into a database and tag those same images. Microsoft Azure will be used for the backend of this application.
+# PhotoArchive
 
+The PhotoArchive project was propsed as a Senior Design Project by the Los Angeles Bureau of Engineering. This project allows the Bureau of Engineering to upload images with specific tags into a Microsoft Azure database. 
 
-# Project Title
+## Key Features
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* Image storage
+* Thumbnail storage
+  * In addition to uploading an image, thumbnails will also be uploaded to increase network efficiency when searching through uploaded images
+* Context and Attribute Associations
+  * Allows for a tagging system to be as specific or general as needed
+  * Context - General purpose of the image
+  * Attribute - Specific characteristics of the image, can have multiple attributes per context
+  * General Example:
+    * Context = Pasadena Rose Bowl Concert
+    * Attribute 1 = Which artist is currently playing?
+    * Attribute 2 = Which area are you seated in?
+    * Attribute ...
+  * Specific Example:
+    * Context = Meeting on 3/14/17 with Corporate
+    * Attribute 1 = How many people are present?
+    * Attribute 2 = What were the topics discussed?
+    * Attribute 3 = Who is currently in this image? 
+    * Attribute ...
+* Take images within the application and store them internally
+* Import images from the camera roll
+* Tag multiple images with multiple context and associated attributes
+* Timed automatic deletion of internal images
+* Adjust time for when images are automatically deleted
+* History view to see all images uploaded by current user and associated contexts
+* Timed automatic login feature
+* 3 different colored themes
+* Privacy feature to wipe all internal application images when a new user logs in
+* Microsoft Azure implementation
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Los Angeles Bureau of Engineering
+* California State University Los Angeles
+* Felipe Vega
+* Alejandra Monteon
+* Nikko De Guzman
+* Edwin Ochoa
+* Stephanie Daley
