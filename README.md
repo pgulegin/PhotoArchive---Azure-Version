@@ -1,6 +1,10 @@
 # PhotoArchive
 
-The PhotoArchive project was propsed as a Senior Design Project by the Los Angeles Bureau of Engineering. This project allows the Bureau of Engineering to upload images with specific tags into a Microsoft Azure database. 
+The PhotoArchive project was proposed as a Senior Design Project by the Los Angeles Bureau of Engineering. This project allows the Bureau of Engineering to upload images with specific tags into a Microsoft Azure database. 
+
+## Special Note
+
+The link to the repo will issue a 404 error because it leads to my private repository due to the project being closed source.
 
 ## Key Features
 
@@ -33,12 +37,20 @@ The PhotoArchive project was propsed as a Senior Design Project by the Los Angel
 * Privacy feature to wipe all internal application images when a new user logs in
 * Microsoft Azure implementation
 
-## Acknowledgments
+## Installation
 
-* Los Angeles Bureau of Engineering
-* California State University Los Angeles
-* Felipe Vega
-* Alejandra Monteon
-* Nikko De Guzman
-* Edwin Ochoa
-* Stephanie Daley
+## Functionality
+
+### Dashboard Page
+
+### Tagging Page
+
+### Camera Page
+
+### History Page
+
+### Settings Page
+
+## Support
+
+If it breaks, you can keep both pieces.
