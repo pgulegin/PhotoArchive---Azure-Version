@@ -65,7 +65,7 @@ I decided to include this section to reiterate that the link to the repository w
 - User detection built in
   - If the current user logging in is not the previous user which was logged in, the application will purge all data from the previous user
 
-(Add screenshot here)
+![Login Image](https://github.com/pgulegin/PhotoArchive---Azure-Version/blob/master/Screenshots/IMG_1810.PNG?raw=true)
 
 ### Dashboard Page
 
