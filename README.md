@@ -65,7 +65,7 @@ I decided to include this section to reiterate that the link to the repository w
 - User detection built in
   - If the current user logging in is not the previous user which was logged in, the application will purge all data from the previous user
 
-![Login Image](https://github.com/pgulegin/PhotoArchive---Azure-Version/blob/master/Screenshots/IMG_1810.PNG?raw=true)
+![Login Page](http://i.imgur.com/P7Jm9qS.png)
 
 ### Dashboard Page
 
@@ -79,7 +79,7 @@ I decided to include this section to reiterate that the link to the repository w
   - Clears individual items
   - Shows larger image if image is selected
 
-(Add screenshot here)
+![Dashboard Image](http://i.imgur.com/ugqKOKG.png)
 
 ### Tagging Page
 
@@ -101,7 +101,7 @@ In this demonstration you will see:
   4. Selecting another context and leaving it blank
   5. Sending the images to the upload queue
 
-(Add screenshot here)
+![Tagging GIF](http://i.imgur.com/dVIYKoe.gif)
 
 ### Camera Page
 
@@ -111,7 +111,7 @@ In this demonstration you will see:
 - Opens the camera to take images
 - Records GPS coordinates to send to the tags database
 
-(Add screenshot here)
+![Camera Image](http://i.imgur.com/11QFogF.png)
 
 ### History Page
 
@@ -119,7 +119,7 @@ In this demonstration you will see:
 - In the overview, the images are loaded as thumbnails for efficiency purposes both on the device and the Azure server
 - When an image is selected, full image is loaded and user can view the tags the image was uploaded with
 
-(Add screenshot here)
+![History Image](http://i.imgur.com/2K8UB8O.png)
 
 ### Settings Page
 
@@ -127,14 +127,16 @@ In this demonstration you will see:
 - Manages internal photo library by deleting images after 90 days, by default
 - Allows theme selection
 
-(Add screenshot here)
+![Settings Image](http://i.imgur.com/9WabxaO.png)
 
 ### Theme Selection
 
 - 3 default themes
 - Themes apply automatically, no need to restart
 
-(Add screenshot here)
+![Default Theme](http://i.imgur.com/miutTp4.png)
+![InvaderGreen Theme](http://i.imgur.com/C6BNnMg.png)
+![Envy Theme](http://i.imgur.com/35kv0E9.png)
 
 ## Support
 
